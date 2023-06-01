@@ -1,8 +1,15 @@
 .text-decoration{
     text-decoration: none;
+    color: azure;
 }
 .profile_img{
     width: 200px;
     height: 200px;
     margin-left: 20%;
+}
+.button{
+    color: azure;
+    background-color: black;
+    border-radius: 0cap;
+    
 }
