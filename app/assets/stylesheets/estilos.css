@@ -22,7 +22,8 @@
   color: white;
 }
 .texto{
-    font-size: smaller;
+    font-size: large;
     text-align: center;
     padding: 5px;
+    color:black ;
 }
