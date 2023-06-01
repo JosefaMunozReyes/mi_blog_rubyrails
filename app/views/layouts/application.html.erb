@@ -20,11 +20,11 @@
       </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
+        <li class="nav-item me-5">
           <%=link_to 'Proyectos', '/projects', class:"text-decoration"%>
         </li>
         <li><p> </p></li>
-        <li class="nav-item">
+        <li class="nav-item me-5">
         <%=link_to 'Contacto', '/contact', class:"text-decoration" %>
         </li>
       </ul>
@@ -35,6 +35,9 @@
       <%= yield %>
     </div>
 
+<footer class="footer">
+<p class="texto">Derechos reservados</p>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
   </body>
